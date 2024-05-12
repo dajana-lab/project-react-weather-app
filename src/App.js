@@ -1,11 +1,13 @@
 import "./App.css";
+import axios from "axios"
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
-        
+       
+        <Weather />
         <footer>
           This project is coded by Dajana and is{" "}
           <a
